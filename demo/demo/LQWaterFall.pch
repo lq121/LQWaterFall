@@ -1,0 +1,16 @@
+//
+//  LQPrefixHeader.pch
+//  LQWaterFall
+//
+//  Created by leyi on 15/8/18.
+//  Copyright (c) 2015年 LQ. All rights reserved.
+//
+
+#ifndef LQWaterFall_LQPrefixHeader_pch
+#define LQWaterFall_LQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define  LQWIDTH [UIScreen mainScreen].bounds.size.width
+#define  LQHEIGHT [UIScreen mainScreen].bounds.size.height
+#endif
